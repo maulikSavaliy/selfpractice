@@ -6,7 +6,7 @@ public class first {
         cocatinationstring("maulik","savaliya");
         samesequance("maulik savaliya","savaliya");
         onepractice.spacialchar("today £ rate is 104");
-
+        onepractice.add(38,40);
 
     }
     //concatination
@@ -26,5 +26,11 @@ public class first {
     void spacialchar(String santance){
         System.out.println("original santance :" + santance);
         System.out.println("new santance :" + santance.replaceAll("[^a-zA-Z0-9]"," "));
+    }
+    // calculator
+    void add(int a,int b){
+        int answer=a+b;
+        System.out.println(answer);
+
     }
 }
